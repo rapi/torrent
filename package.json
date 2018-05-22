@@ -1,0 +1,17 @@
+{
+  "name": "torrent",
+  "version": "1.0.0",
+  "description": "Torrent",
+  "main": "server.js",
+  "scripts": {
+    "jasmine": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
