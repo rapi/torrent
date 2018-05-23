@@ -7,11 +7,11 @@ module.exports= class Log{
         this.db= new (require('./logDb'))()
     }
     info(what){
-        let str="[Info]";
-        str+="["+((new Date).toISOString().slice(0,19))+"]  ";
+        let str="["+((new Date).toISOString().slice(0,19))+"]";
+        str+="[Info]  ";
         str+=what;
         if(this.in_file)this.file.save(str)
         if(this.in_console)console.log(str)
         if(this.in_db)this.db.save(str)
-    }    
+    }
 }

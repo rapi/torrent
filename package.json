@@ -1,17 +1,22 @@
 {
   "name": "torrent",
   "version": "1.0.0",
+  "type": "git",
+  "url": "git://github.com/rapi/torrent",
+  "repository": "git://github.com/rapi/torrent",
   "description": "Torrent",
   "main": "server.js",
   "scripts": {
-    "jasmine": "jasmine"
+    "dev": "webpack"
   },
-  "author": "",
+  "author": "rapi",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3"
   },
   "devDependencies": {
-    "jasmine": "^3.1.0"
+    "jasmine": "^3.1.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
   }
 }
